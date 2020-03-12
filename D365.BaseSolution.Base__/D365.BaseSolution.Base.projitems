@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>2d7ab900-4182-445d-b5d7-c742c8ad15cb</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>D365.BaseSolution.Base</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Actions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Entities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\OptionSets.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plugins\BaseClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Workflows\BaseClass.cs" />
+  </ItemGroup>
+</Project>
